@@ -1,16 +1,17 @@
-# to_do
+# 📝 Todo Tasks Project
 
-A new Flutter project.
+This Flutter project demonstrates a simple **Todo App** with local persistence using Hive:
+- Add new tasks (title + description) from a bottom sheet.
+- Mark tasks as completed.
+- Filter tasks by All / Active / Completed.
+- Persistent storage with Hive.
 
-## Getting Started
+## 📸 Screenshots
 
-This project is a starting point for a Flutter application.
+| Bottom Sheet | All Tasks |
+|--------------|-----------|
+| <img src="assets/screenshots/bottom_sheet.png" width="250"> | <img src="assets/screenshots/all_tasks.png" width="250"> |
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Active Tasks | Completed Tasks |
+|--------------|----------------|
+| <img src="assets/screenshots/active.png" width="250"> | <img src="assets/screenshots/completed.png" width="250"> |
